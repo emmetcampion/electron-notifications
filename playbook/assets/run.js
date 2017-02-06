@@ -18,7 +18,6 @@ document.querySelectorAll('button').forEach((button) => {
     if(id=="stacking") {
     	var num = parseInt(window.document.getElementById('stack-num').value);
     	var stackDelay = parseInt(window.document.getElementById('stack-delay').value);
-    	console.log("stack delay = "+stackDelay);
     	var whenToEval = 0;
     	if(!num) {
     		num = 1;
@@ -29,7 +28,6 @@ document.querySelectorAll('button').forEach((button) => {
     		replacedCode = code.replace('electron-notifications', '../index.js');
     		setTimeout(eval, whenToEval,replacedCode);
     		whenToEval += stackDelay;
-    		console.log("will evaluate next in "+whenToEval);
     	}
     } else {
     	replacedCode = code.replace('electron-notifications', '../index.js')
