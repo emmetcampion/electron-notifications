@@ -24,7 +24,7 @@ html, body {
   border-radius: 10px 0 0 10px;
 }
 #notification .icon img {
-  padding: 10px 15px 0 15px;
+  padding: 10px 5px 0 5px;
   width: 60px;
 }
 
@@ -41,6 +41,7 @@ html, body {
   width: 310px;
 }
 #notification .message {
+  margin-left: -15px;
   height: 80px;
   width: 310px;
   float: left;
@@ -81,9 +82,10 @@ html, body {
 #notification .message.flat, #notification .message.flat:before  {
   border-radius: 0px;
 }
+
 #close{
   position: absolute;
-  top: 4px;
+  top: -4px;
   right: 100px;
   color: #222;
   cursor: pointer;
