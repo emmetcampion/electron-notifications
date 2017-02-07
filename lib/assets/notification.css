@@ -64,7 +64,7 @@ html, body {
 #notification .message h2 {
   padding: 20px 0 0 0px;
   margin: 0 0 5px;
-  font: bold 18px Myriad, Helvetica, Arial, sans-serif;
+  font: bold 15px Myriad, Helvetica, Arial, sans-serif;
   text-shadow: 0px 2px 1px #fff;
 }
 #notification .message p {
