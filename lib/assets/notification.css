@@ -1,6 +1,5 @@
 html, body {
   overflow: hidden;
-  background: rgba(0, 0, 0, 0);
 }
 
 #notification {
@@ -85,8 +84,7 @@ html, body {
 #close{
   position: absolute;
   top: 4px;
-  right: 6px;
+  right: 100px;
   color: #222;
-  font-weight: 300;
   cursor: pointer;
 }
