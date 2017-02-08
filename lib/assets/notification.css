@@ -3,7 +3,7 @@ html, body {
 }
 
 #notification {
-  height: 90px;
+  height: 70px;
   width: 400px;
   position: relative;
   color: #746F6E;
@@ -24,7 +24,7 @@ html, body {
   border-radius: 10px 0 0 10px;
 }
 #notification .icon img {
-  padding: 10px 5px 0 5px;
+  padding: 0px 5px 10px 5px;
   width: 60px;
 }
 
@@ -43,9 +43,9 @@ html, body {
 #notification .message {
   margin-left: -15px;
   height: 80px;
-  width: 310px;
+  width: 200px;
   float: left;
-  text-overflow: clip;
+  text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
@@ -60,11 +60,11 @@ html, body {
   border-radius: 0 10px 10px 0;
 }
 #notification .message.onlyTitle h2 {
-  padding: 30px;
+  padding: 20px;
 }
 #notification .message h2 {
-  padding: 20px 0 0 0px;
-  margin: 0 0 5px;
+  padding-top: 5px;
+  margin: 0 0 8px;
   font: bold 15px Myriad, Helvetica, Arial, sans-serif;
   text-shadow: 0px 2px 1px #fff;
 }
